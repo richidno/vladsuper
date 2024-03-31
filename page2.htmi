@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Войти</title>
+
+    <link rel="stylesheet" href="style.css/style3.css">
+
+
+
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <a href="index.htmi">Главная</a>
+
+        <a href="page.htmi" class="right">Регистрация</a>
+
+    </div>
+
+
+
+    <div class="main">
+
+        <div class="con">
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <form action="index.htmi" method="post">
+
+
+        <div class="container">
+
+            <h1>Войти</h1>
+
+            <label for="uname"><b>Пользователь</b></label>
+            <input type="text" placeholder="Введите имя" name="uname" required>
+
+            <label for="psw"><b>Пароль</b></label>
+            <input type="password" placeholder="Введите пароль" name="psw" required>
+
+            <button type="submit">Вход</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Запомнить меня
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#7e7d7d">
+            <button type="button" class="cancelbtn">Отменить</button>
+            <span class="psw" style="color:rgb(0, 0, 0);">Забыли <a href="#"
+                    style="color:rgb(0, 0, 0);">пароль?</a></span>
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

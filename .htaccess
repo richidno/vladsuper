@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteCond %{HTTP_HOST} ^www.itproger.com
+    RewriteRule (.*) https://itproger.com/$1 [R=301,L]
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\/index.html\ HTTP/ 
+    RewriteRule ^index\.php$ https://Runwebsite.com/ [R=301,L]
+</IfModule>
+
+ServerSignature Off
+AddDefaultCharset UTF-8

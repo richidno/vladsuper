@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+
+    <link rel="stylesheet" href="style.css/style2.css">
+    
+
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.htmi">Главная</a>
+
+        <a href="page2.htmi" class="right">Войти</a>
+
+    </div>
+
+    <div class="main">
+
+        <div class="con">
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <form action="index.htmi">
+        <div class="container">
+            <h1>Регистрация</h1>
+            <p>Пожалуйста войдите в аккаунт.</p>
+            <hr>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Ввидите Email" name="email" required>
+
+            <label for="psw"><b>Пароль</b></label>
+            <input type="password" placeholder="Ввидите пароль" name="psw" required>
+
+            <label for="psw-repeat"><b>Повторите пароль </b></label>
+            <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+            <hr>
+
+            <p>Создавая учетную запись, вы соглашаетесь с нашими <a href="#" style="color:rgb(59, 59, 59);">условиями
+                    и конфиденциальностью.</a>.</p>
+            <button type="submit" class="registerbtn">Регистрация</button>
+        </div>
+
+        <div class="container signin">
+            <p>У вас уже есть аккаунт? <a href="page2.htmi" style="color:rgb(82, 82, 82);">Войти</a>.</p>
+        </div>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
